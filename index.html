@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stone Paper Scissors</title>
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" type="img/png" href="./img/rock-paper-scissors.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Rock Paper Scissor</h1>
+
     <div class="choices">
         <div class="choice" id="rock">
-            <img src="./img/rock.png">
+            <img src="./img/rock.png" alt="Rock">
         </div>
         <div class="choice" id="paper">
-            <img src="./img/paper.png">
+            <img src="./img/paper.png" alt="Paper">
         </div>
         <div class="choice" id="scissors">
-            <img src="./img/scissors.png">
+            <img src="./img/scissors.png" alt="Scissors">
         </div>
     </div>
+
     <div class="score-board">
         <div class="score">
             <p id="user-score">0</p>
@@ -29,9 +32,13 @@
             <p>Comp</p>
         </div>
     </div>
+
     <div class="msg-container">
         <p id="msg">Play your move</p>
     </div>
+
+    <button id="reset-btn">Reset Game</button>
+
     <script src="script.js"></script>
 </body>
 </html>
